@@ -9,7 +9,8 @@
 
 ## 說明
 
-`#設定state
+```
+#設定state
 const [mode, setMode] = useState("light"); //初始值為light主題
 function handleClick(event) {
     event.preventDefault();
@@ -20,6 +21,7 @@ function handleClick(event) {
         return "light";
       }
     });
-    document.querySelector(".switch").classList.toggle("change"); 
+    document.querySelector(".switch").classList.toggle("change");
     //switch button
-}`
+}
+```
